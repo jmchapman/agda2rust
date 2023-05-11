@@ -1,6 +1,6 @@
 use std::cell::Cell;
 use std::fmt;
-use std::lazy::OnceCell;
+use std::cell::OnceCell;
 use std::ops::Deref;
 
 // Variation of the std::lazy::Lazy type which supports fake lazy values for when the closure computing the lazy value would capture a local variable.
